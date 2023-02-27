@@ -1,0 +1,87 @@
+footer{
+    width: 100%;
+    height: 18px;
+    margin-bottom: 0 ;
+    margin: 0 0 0 0;
+    padding: 0;
+    background: #FFFFFF;
+    /* margin-top: 16px; */
+    /* top: 1042px; */
+    margin-bottom: 0px;
+    position: absolute;
+}
+.footer_container{
+    display: flex;
+   
+}
+.footer_title > p{
+    width: 198px;
+    height: 15px;
+justify-content: space-between;
+font-family: 'Roboto';
+font-size: 11px;
+font-weight: 700;
+line-height: 14px;
+letter-spacing: 1.5px;
+text-align: left;
+display: inline-block;
+align-items: center;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+margin-left: 20px;
+margin-top: 20px;
+color: #5A5A89;
+}
+.footer_date  {
+display: flex;
+position: absolute;
+right: 0px;
+align-items: center;
+width: 168px;
+height: 16px;
+margin-top: 15px;   
+font-family: 'Roboto';
+font-size: 10px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 1.5px;
+display: inline-block;
+align-items: center;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+margin-left: 50px auto;;
+color: #5A5A89;
+position: fixed;
+}
+
+
+/* ===================== Media Quries================== */
+@media screen and (min-width:992px){
+ footer{
+    width: 100%;
+    position: absolute;
+    /* bottom: 0px; */
+    margin-bottom: 0px;
+    height: 3em;
+    justify-content: center;
+ }   
+ 
+}
+
+
+@media screen and (min-width:768px){
+    footer{
+        width: 100%;
+        bottom: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (min-width:568px){
+
+    footer{
+         width: 100%;
+        bottom: 0px;
+        margin-bottom: 0px;
+    }
+}

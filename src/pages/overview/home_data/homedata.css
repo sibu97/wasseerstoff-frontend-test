@@ -1,0 +1,452 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.tooltips_map{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 6px 10px;
+gap: 12px;
+/* justify-content: center; */
+position: absolute;
+width: 184px;
+height: 60px;
+background: #FFFFFF;
+border-radius: 16px;
+top: 299px;
+left: 593px;
+right: 1149px;
+filter: drop-shadow(0px 140.831px 112.665px rgba(41, 52, 149, 0.21)) drop-shadow(0px 58.8358px 47.0686px rgba(41, 52, 149, 0.150959)) drop-shadow(0px 31.4564px 25.1651px rgba(41, 52, 149, 0.125183)) drop-shadow(0px 17.6342px 14.1074px rgba(41, 52, 149, 0.105)) drop-shadow(0px 9.3654px 7.49232px rgba(41, 52, 149, 0.0848175)) drop-shadow(0px 3.89715px 3.11772px rgba(41, 52, 149, 0.0590406));
+}
+.icon_container{
+    /* position: absolute; */
+    justify-content: center;
+    margin: 10px 12px 10px 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: rgba(102, 200, 255, 1);
+}
+.tooltipicon{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    /* align-items: center; */
+    color: #FFFFFF;
+    font-size: 20px;  
+    margin-left: 9px;
+    margin-top: 10px;
+}
+.tooltip_city{
+font-family: 'Poppins';
+font-size: 16px;
+font-weight: 300;
+line-height: 20px;
+letter-spacing: 0.43px;
+text-align: left;
+ margin: 6px 0 0 0;
+ color: #383874;
+}
+.tooltip_numbers{
+ 
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+display: flex;
+align-items: center;
+letter-spacing: 0.15px;
+color: #383874;
+}
+.tooltip_trangle{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid #FFFFFF;
+    /* background: black; */
+    transform: rotate(180deg);
+    left: 80px;
+    bottom: -20px;
+}
+
+
+/* ========================================Berlin================================= */
+
+.tooltips_map_berlin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 10px;
+    gap: 12px;
+    /* justify-content: center; */
+    position: absolute;
+    width: 184px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    top: 208px;
+    left: 1048px;
+    right: 1149px;
+    filter: drop-shadow(0px 140.831px 112.665px rgba(41, 52, 149, 0.21)) drop-shadow(0px 58.8358px 47.0686px rgba(41, 52, 149, 0.150959)) drop-shadow(0px 31.4564px 25.1651px rgba(41, 52, 149, 0.125183)) drop-shadow(0px 17.6342px 14.1074px rgba(41, 52, 149, 0.105)) drop-shadow(0px 9.3654px 7.49232px rgba(41, 52, 149, 0.0848175)) drop-shadow(0px 3.89715px 3.11772px rgba(41, 52, 149, 0.0590406));
+    }
+    .icon_container_berlin{
+        /* position: absolute; */
+        justify-content: center;
+        margin: 10px 12px 10px 10px;
+        width: 40px;
+        height: 40px;
+        border-radius: 12px;
+        background-color: rgba(123, 221, 162, 1);
+    }
+    .tooltipicon_berlin{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        /* align-items: center; */
+        color: #FFFFFF;
+        font-size: 20px;  
+        margin-left: 9px;
+        margin-top: 10px;
+    }
+    .tooltip_city_berlin{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.43px;
+    text-align: left;
+     margin: 6px 0 0 0;
+     color: #383874;
+    }
+    .tooltip_numbers_berlin{
+     
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;
+    color: #383874;
+    }
+    .tooltip_trangle_berlin{
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 25px solid #FFFFFF;
+        /* background: black; */
+        transform: rotate(180deg);
+        left: 80px;
+        bottom: -20px;
+    }
+
+
+    /* ==========================================================Manaus================================== */
+    .tooltips_map_manaus{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 6px 10px;
+        gap: 12px;
+        /* justify-content: center; */
+        position: absolute;
+        width: 184px;
+        height: 60px;
+        background: #FFFFFF;
+        border-radius: 16px;
+        top: 537px;
+        left: 716px;
+        right: 1027px;
+        filter: drop-shadow(0px 140.831px 112.665px rgba(41, 52, 149, 0.21)) drop-shadow(0px 58.8358px 47.0686px rgba(41, 52, 149, 0.150959)) drop-shadow(0px 31.4564px 25.1651px rgba(41, 52, 149, 0.125183)) drop-shadow(0px 17.6342px 14.1074px rgba(41, 52, 149, 0.105)) drop-shadow(0px 9.3654px 7.49232px rgba(41, 52, 149, 0.0848175)) drop-shadow(0px 3.89715px 3.11772px rgba(41, 52, 149, 0.0590406));
+        }
+        .icon_container_manaus{
+            /* position: absolute; */
+            justify-content: center;
+            margin: 10px 12px 10px 10px;
+            width: 40px;
+            height: 40px;
+            border-radius: 12px;
+            background-color: rgba(248, 162, 67, 1);
+        }
+        .tooltipicon_manaus{
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            /* align-items: center; */
+            color: #FFFFFF;
+            font-size: 20px;  
+            margin-left: 9px;
+            margin-top: 10px;
+        }
+        .tooltip_city_manaus{
+        font-family: 'Poppins';
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 20px;
+        letter-spacing: 0.43px;
+        text-align: left;
+         margin: 6px 0 0 0;
+         color: #383874;
+        }
+        .tooltip_numbers_manaus{
+         
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.15px;
+        color: #383874;
+        }
+        .tooltip_trangle_manaus{
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            border-left: 25px solid transparent;
+            border-right: 25px solid transparent;
+            border-bottom: 25px solid #FFFFFF;
+            /* background: black; */
+            transform: rotate(180deg);
+            left: 80px;
+            bottom: -20px;
+        }
+        
+
+        /* ============================================Giza=============================================== */
+
+
+        .tooltips_map_giza{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 6px 10px;
+            gap: 12px;
+            /* justify-content: center; */
+            position: absolute;
+            width: 184px;
+            height: 60px;
+            background: #FFFFFF;
+            border-radius: 16px;
+            top: 424px;
+            left: 1135px;
+            right: 605px;
+            filter: drop-shadow(0px 140.831px 112.665px rgba(41, 52, 149, 0.21)) drop-shadow(0px 58.8358px 47.0686px rgba(41, 52, 149, 0.150959)) drop-shadow(0px 31.4564px 25.1651px rgba(41, 52, 149, 0.125183)) drop-shadow(0px 17.6342px 14.1074px rgba(41, 52, 149, 0.105)) drop-shadow(0px 9.3654px 7.49232px rgba(41, 52, 149, 0.0848175)) drop-shadow(0px 3.89715px 3.11772px rgba(41, 52, 149, 0.0590406));
+            }
+            .icon_container_giza{
+                /* position: absolute; */
+                justify-content: center;
+                margin: 10px 12px 10px 10px;
+                width: 40px;
+                height: 40px;
+                border-radius: 12px;
+                background-color: rgba(255, 126, 126, 1);
+            }
+            .tooltipicon_giza{
+                display: flex;
+                justify-content: center;
+                position: absolute;
+                /* align-items: center; */
+                color: #FFFFFF;
+                font-size: 20px;  
+                margin-left: 9px;
+                margin-top: 10px;
+            }
+            .tooltip_city_giza{
+            font-family: 'Poppins';
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 20px;
+            letter-spacing: 0.43px;
+            text-align: left;
+             margin: 6px 0 0 0;
+             color: #383874;
+            }
+            .tooltip_numbers_giza{
+             
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 28px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.15px;
+            color: #383874;
+            }
+            .tooltip_trangle_giza{
+                position: absolute;
+                width: 0px;
+                height: 0px;
+                border-left: 25px solid transparent;
+                border-right: 25px solid transparent;
+                border-bottom: 25px solid #FFFFFF;
+                /* background: black; */
+                transform: rotate(180deg);
+                left: 80px;
+                bottom: -20px;
+            }
+            
+            /* ======================================Shanghai======================== */
+            .tooltips_map_shanghai{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 6px 10px;
+                gap: 12px;
+                /* justify-content: center; */
+                position: absolute;
+                width: 184px;
+                height: 60px;
+                background: #FFFFFF;
+                border-radius: 16px;
+                top: 356px;
+                left: 1516px;
+                right: 220px;
+                filter: drop-shadow(0px 140.831px 112.665px rgba(41, 52, 149, 0.21)) drop-shadow(0px 58.8358px 47.0686px rgba(41, 52, 149, 0.150959)) drop-shadow(0px 31.4564px 25.1651px rgba(41, 52, 149, 0.125183)) drop-shadow(0px 17.6342px 14.1074px rgba(41, 52, 149, 0.105)) drop-shadow(0px 9.3654px 7.49232px rgba(41, 52, 149, 0.0848175)) drop-shadow(0px 3.89715px 3.11772px rgba(41, 52, 149, 0.0590406));
+                }
+                .icon_container_shanghai{
+                    /* position: absolute; */
+                    justify-content: center;
+                    margin: 10px 12px 10px 10px;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 12px;
+                    background-color: rgba(232, 165, 255, 1);
+                }
+                .tooltipicon_shanghai{
+                    display: flex;
+                    justify-content: center;
+                    position: absolute;
+                    /* align-items: center; */
+                    color: #FFFFFF;
+                    font-size: 20px;  
+                    margin-left: 9px;
+                    margin-top: 10px;
+                }
+                .tooltip_city_shanghai{
+                font-family: 'Poppins';
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 20px;
+                letter-spacing: 0.43px;
+                text-align: left;
+                 margin: 6px 0 0 0;
+                 color: #383874;
+                }
+                .tooltip_numbers_shanghai{
+                 
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 28px;
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.15px;
+                color: #383874;
+                }
+                .tooltip_trangle_shanghai{
+                    position: absolute;
+                    width: 0px;
+                    height: 0px;
+                    border-left: 25px solid transparent;
+                    border-right: 25px solid transparent;
+                    border-bottom: 25px solid #FFFFFF;
+                    /* background: black; */
+                    transform: rotate(180deg);
+                    left: 80px;
+                    bottom: -20px;
+                }
+                
+                /* =====================================Queensland============================ */
+                .tooltips_map_queensland{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    padding: 6px 10px;
+                    gap: 12px;
+                    /* justify-content: center; */
+                    position: absolute;
+                    width: 184px;
+                    height: 60px;
+                    background: #FFFFFF;
+                    border-radius: 16px;
+                    top: 656px;
+                    left: 1625px;
+                    right: 113px;
+                    filter: drop-shadow(0px 140.831px 112.665px rgba(41, 52, 149, 0.21)) drop-shadow(0px 58.8358px 47.0686px rgba(41, 52, 149, 0.150959)) drop-shadow(0px 31.4564px 25.1651px rgba(41, 52, 149, 0.125183)) drop-shadow(0px 17.6342px 14.1074px rgba(41, 52, 149, 0.105)) drop-shadow(0px 9.3654px 7.49232px rgba(41, 52, 149, 0.0848175)) drop-shadow(0px 3.89715px 3.11772px rgba(41, 52, 149, 0.0590406));
+                    }
+                    .icon_container_queensland{
+                        /* position: absolute; */
+                        justify-content: center;
+                        margin: 10px 12px 10px 10px;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 12px;
+                        background-color: rgba(102, 154, 255, 1);
+                    }
+                    .tooltipicon_queensland{
+                        display: flex;
+                        justify-content: center;
+                        position: absolute;
+                        /* align-items: center; */
+                        color: #FFFFFF;
+                        font-size: 20px;  
+                        margin-left: 9px;
+                        margin-top: 10px;
+                    }
+                    .tooltip_city_queensland{
+                    font-family: 'Poppins';
+                    font-size: 16px;
+                    font-weight: 300;
+                    line-height: 20px;
+                    letter-spacing: 0.43px;
+                    text-align: left;
+                     margin: 6px 0 0 0;
+                     color: #383874;
+                    }
+                    .tooltip_numbers_queensland{
+                     
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 28px;
+                    display: flex;
+                    align-items: center;
+                    letter-spacing: 0.15px;
+                    color: #383874;
+                    }
+                    .tooltip_trangle_queensland{
+                        position: absolute;
+                        width: 0px;
+                        height: 0px;
+                        border-left: 25px solid transparent;
+                        border-right: 25px solid transparent;
+                        border-bottom: 25px solid #FFFFFF;
+                        /* background: black; */
+                        transform: rotate(180deg);
+                        left: 80px;
+                        bottom: -20px;
+                    }
+
+
+
+
+                    
+                    @media screen and (max-width:500px){
+                       
+                        .tooltips_map, .tooltips_map_berlin, .tooltips_map_giza, .tooltips_map_manaus, .tooltips_map_queensland, .tooltips_map_shanghai{
+                            display: none;
+                        }
+                        
+                    }

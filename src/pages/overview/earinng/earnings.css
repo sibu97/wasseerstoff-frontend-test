@@ -1,0 +1,485 @@
+.earning_stats{
+    margin-top: 50px;
+    margin-left: 60px;
+    display: flexbox;
+}
+
+.users{
+    display: flex;
+}
+.users > h6{
+display: inline-block;
+margin: 0;
+height: 32px;
+width: 67px;
+left: 0px;
+top: 0px;
+color: rgba(56, 56, 116, 1);
+
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+/* letter-spacing: ; */
+text-align: left;
+
+}
+.users > span{
+width: 41px;
+height: 16px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 16px;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+color: #383874;
+flex: none;
+padding: 10px;
+margin-left: 14px;
+text-align: center;
+margin-top: 2px;
+}
+.right_icon{
+ margin-left: 30px;
+ /* justify-content: center; */
+ margin-top: 10px;
+ color: #383874;
+}
+/* .users > i{ */
+
+/* left: 17.93%;
+right: 37.5%;
+top: 48.32%;
+bottom: 32.32%; */
+
+/* Night Blue */
+
+/* color: #383874;
+
+} */
+
+/* ========================================User Count=========================== */
+.user_count {
+    display: inline-block;
+}
+.user_count > h1{
+position: absolute;
+width: 100px;
+height: 68px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 52px;
+line-height: 118px;
+margin-top: 0;
+margin-bottom: 0;
+
+letter-spacing: -1.75px;
+color: #383874;
+}
+
+
+/* ==========================Sidepanel_stats======================= */
+
+.sidepanel_stats {
+    margin-top: 127px;
+    display: flex;
+}
+ 
+.total_earning{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    background: rgba(134, 118, 255, 1);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    height: 26.67px;
+    width: 26.67px;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(134, 118, 255, 1);
+    position: absolute;
+    border:3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.growth_icon{
+    color: white;
+    font-size: 20px;
+    /* top: -70px; */
+    position: absolute;
+    left: 1px;
+    bottom:  -2px;   
+}
+
+.earning_details{
+    flex-direction: column;
+    position: absolute;
+    display: flex;
+    margin-left: 96px;
+    justify-content: center;
+    
+}
+
+.earning_title{
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 122px;
+    height: 32px;
+    justify-content: center;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+color: #383874;
+}
+.earning_details_count{
+    width: 84px;
+    height: 32px;
+    text-align: center;
+   padding: 2.5px;
+    align-self: center;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 32px;
+color: #383874;
+    }
+
+    /* ===========================================Sales============================= */
+    
+    .sidepanel_stats_sales {
+        margin-top: 30px;
+        display: flex;
+    }
+    .sales_icon{
+        color: white;
+        font-size: 30px;
+        
+    }
+    .total_sales{
+      background-color:#66C8FF;
+      width: 60px;
+      height: 60px;
+      border-radius: 20px;
+      /* background: rgba(134, 118, 255, 1); */
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+/* ================================================Purchase======================================= */
+.sidepanel_stats_purchase {
+    margin-top: 30px;
+    display: flex;
+}
+.total_purchase{
+    background-color:#FF9066;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    /* background: rgba(134, 118, 255, 1); */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .purchase_icon{
+    color: white;
+    
+    font-size:  30px;
+  }
+
+
+  /* ============================================Progress-Circles================================= */
+  /* =======================================Active users================================== */
+  .circlular_progress{
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .circle-wrap_active {
+    /* margin: 100px 0 0 0; */
+    width: 88px;
+    height: 88px;
+    background: rgba(219, 223, 241, 1);
+    border-radius: 50%;
+    border: 1px solid rgba(219, 223, 241, 1);
+    display: inline-block;
+    margin-left: -175px;
+    margin-top: 70vh;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  
+  .circle-wrap_active .circle_active .mask_active,
+  .circle-wrap_active .circle_active .fill_active {
+    width: 88px;
+    height: 88px;
+    position: absolute;
+    border-radius: 50%;
+    /* background-color: black; */
+  }
+  
+  .circle-wrap_active .circle_active .mask_active {
+    clip: rect(0px, 44px, 88px, 0px);
+  }
+  
+  .circle-wrap_active .inside-circle_active {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: lavender;
+    line-height: 120px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 14px;
+    /* color: rgb(83, 83, 237); */
+    position: absolute;
+    /* z-index: 100; */
+    /* font-weight: 700; */
+    /* font-size: 2em; */
+  }
+  .inside-circle_active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.112222px;
+    
+    color: #171725;
+  }
+  /* color animation */
+  
+  /* 3rd progress bar */
+  .mask_active .fill_active {
+    clip: rect(0px, 44px, 88px, 0px);
+    background-color: rgba(2, 58, 255, 1);
+  }
+  
+  .mask_active.full_active,
+  .circle_active .fill_active {
+    animation: fill_active ease-in-out 3s;
+    transform: rotate(90deg);
+  }
+  
+  @keyframes fill_active{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(48deg);
+    }
+  }
+.user_details{
+    flex-direction: column;
+    position: absolute;
+    margin-left: 106px;
+}
+.user_details > p{
+    width: 69.83px;
+    height: 29.93px;
+    margin: 15px 0 0 0;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.4399999976158142px;
+    text-align: left;
+    color: rgba(56, 56, 116, 1);
+    text-align: center;
+}
+.user_details > span{
+width: 102.25px;
+height: 24.94px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.44px;
+color: #383874;
+
+}
+  /* =====================================================New users=================================== */
+
+  .circle-wrap_new {
+    margin: 130px 0 0 0;
+    width: 88px;
+    height: 88px;
+    background: rgba(219, 223, 241, 1);
+    border-radius: 50%;
+    border: 1px solid rgba(219, 223, 241, 1);
+    display: inline-block;
+    margin-left: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 95px;
+    margin-top: 70vh;
+  }
+  
+  .circle-wrap_new .circle_new .mask_new,
+  .circle-wrap_new .circle_new .fill_new {
+    width: 88px;
+    height: 88px;
+    position: absolute;
+    border-radius: 50%;
+    
+  }
+  
+  .circle-wrap_new .circle_new .mask_new {
+    clip: rect(0px, 44px, 88px, 0px);
+  }
+  
+  .circle-wrap_new .inside-circle_new {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: lavender;
+    line-height: 120px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 14px;
+    /* color: rgb(83, 83, 237); */
+    position: absolute;
+    
+  }
+  .inside-circle_new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.112222px;
+    
+    color: #171725;
+  }
+  .new_user_details {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 106px;
+  }
+  .new_user_details>p{
+    width: 69.83px;
+    height: 29.93px;
+    margin: 15px 0 0 0;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.4399999976158142px;
+    text-align: left;
+    color: rgba(56, 56, 116, 1);
+    text-align: center;
+  }
+.new_user_details > span {
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.44px;
+color: #383874;
+order: 1;
+  }
+  .new_user_details_title{
+    width: 102.25px;
+    height: 24.94px;
+  }
+  /* color animation */
+  
+  /* 3rd progress bar */
+  .mask_new .fill_new {
+    clip: rect(0px, 88px, 88px, 0px);
+    background-color: rgba(0, 185, 41, 1);
+    
+  }
+  
+  .mask_new.full_new,
+  .circle_new .fill_new {
+    animation: fill_new ease-in-out 3s;
+    transform: rotate(80deg);
+  }
+  
+  @keyframes fill_new{
+    0% {
+      transform: rotate(0deg);
+    }
+   
+    100% {
+      transform: rotate(80deg);
+    }
+   
+  }
+
+  @media screen and (max-width: 768px){
+    .circlular_progress{
+      width: 100px;
+      display: inline-flex;
+      margin-top: 30px;
+      height: 100px;
+    }
+    .circle_active{
+      margin-top: 10px;
+
+    }
+    .circle_new{
+      margin-top: 0px;
+      margin-left: 70px;
+    }
+  }
+
+  @media screen and (max-width: 370px){
+    .circlular_progress{
+      width: 100px;
+      display: inline-flex;
+      margin-top: 30px;
+      height: 100px;
+    }
+    .circle_active{
+      margin-top: 10px;
+
+    }
+    .circle_new{
+      margin-top: 0px;
+      margin-left: 30px;
+    }
+  }
+  @media screen and (max-width: 500px){
+    .circlular_progress{
+      width: 100px;
+      display: inline-flex;
+      margin-top: 30px;
+      height: 100px;
+    }
+    .circle_active{
+      margin-top: 10px;
+
+    }
+    .circle_new{
+      margin-top: 0px;
+    }
+  }
